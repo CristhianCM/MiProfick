@@ -37,6 +37,7 @@
   transform: translate(110%);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   border-radius: 20px 0px 20px 20px;
+  z-index: 1;
 }
 .menu-navegacion a:hover {
   color: #969664;
