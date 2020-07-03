@@ -1,0 +1,73 @@
+@media screen and (max-width: 900px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .proyects-posts-container .proyect-container {
+    max-width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content button {
+    font-size: 23px;
+  }
+  .perfil-photo {
+    grid-column: 1;
+    width: 50%;
+    padding-top: 15px;
+  }
+  .perfil-photo figure img {
+    width: 46%;
+  }
+  .grid-container {
+    display: contents;
+  }
+  .proyects-posts-container .proyect-container {
+    max-width: 95%;
+  }
+  .footer-content {
+    justify-content: center;
+  }
+  .social-media {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .social-media-icon {
+    margin-left: 0;
+  }
+
+  .social-media i {
+    margin-left: 0;
+  }
+
+  .contact-us {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero-content h1 {
+    font-size: 1.2rem;
+  }
+  .header-title h1 {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  .hero-content button {
+    font-size: 20px;
+  }
+  .proyects-posts-container {
+    padding: 0px 21px 22px;
+  }
+  .social-media {
+    width: 100%;
+  }
+
+  .contact-us {
+    width: 90%;
+  }
+}

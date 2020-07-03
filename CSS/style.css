@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&display=swap");
+:root {
+  scroll-behavior: smooth;
+}
+
+/* --------------------Generales */
+body {
+  /* -------Truco */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Pacifico", cursive;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(41, 50, 60, 0.4) 0%,
+      rgba(72, 85, 99, 0.4) 100%
+    ),
+    url(../assets/img/57dabf0e63ebaf2308c2c61f8ce92362.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* -----------Title */
+.header-title h1 {
+  margin: 0;
+  padding-left: 2.5%;
+  padding-top: 2%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-title h1:hover {
+  color: white;
+}
+/* ----------Text-- */
+.hero-content {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+.hero-content button {
+  margin-top: 2%;
+  padding: 24%;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Yellowtail", cursive;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.hero-content button:hover {
+  background-color: rgba(41, 50, 60, 0.4);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.322);
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+/* -------------------------------General */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.grid-container {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+/* -------------------------------------Header */
+header {
+  height: 70vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(215, 210, 204, 0.747) 0%,
+      rgba(48, 67, 82, 0.596) 100%
+    ),
+    url(../assets/img/hero-contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header-title h1 {
+  margin: 0;
+  padding: 23px;
+  color: rgba(41, 50, 60, 0.795);
+  font-family: "Pacifico", cursive;
+}
+.contenedor-head {
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgba(253, 249, 249, 0.856);
+  font-family: "Pacifico", cursive;
+}
+.titulo {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.copy {
+  font-weight: 300;
+  font-size: 25px;
+}
+/* ---------------------------------------Main */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.contact-us {
+  width: 40%;
+  color: #000;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand + p {
+  font-weight: 500;
+}
+
+.social-media {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  color: #000;
+}
+
+.social-media-icon:hover {
+  background: #000;
+  color: #37ecba;
+}
+
+.social-media-icon i {
+  font-size: 35px;
+  line-height: 60px;
+}
