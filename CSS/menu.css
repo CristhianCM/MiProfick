@@ -9,6 +9,7 @@
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 .hamburguer:hover {
   background-color: rgba(249, 251, 253, 0.884);
@@ -37,7 +38,7 @@
   transform: translate(110%);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   border-radius: 20px 0px 20px 20px;
-  z-index: 1;
+  z-index: 2;
 }
 .menu-navegacion a:hover {
   color: #969664;
