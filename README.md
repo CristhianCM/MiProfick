@@ -18,6 +18,6 @@ It is a mini portfolio of my person, which was made as a test, in which I took a
 
 ### 👌 Open page
 
-Visit [GitHub_Page_Website](https://cristhiancm.github.io/MiProfick/index.html)
+Visit [GitHub_Page_MiProfick](https://cristhiancm.github.io/MiProfick/index.html)
 
 ![Image text](https://github.com/CristhianCM/MiProfick/blob/main/assets/img/MiProfix_Finish.png)
